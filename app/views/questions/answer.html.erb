@@ -1,0 +1,14 @@
+<div class="py-3">
+  <blockquote class="blockquote border-5 border-start ps-3 py-2">
+    <p><%= @question %></p>
+    <p><em>&ndash;You</em></p>
+  </blockquote>
+
+  <blockquote class="blockquote bg-warning border-5 border-start ps-3 py-2" style="--bs-bg-opacity: .25;">
+    <p><strong><%= @answer %></strong></p>
+    <p><em>&ndash;Your Coach</em></p>
+  </blockquote>
+</div>
+<div>
+  <p><%= link_to "Ask a new question", ask_path %></p>
+</div>
